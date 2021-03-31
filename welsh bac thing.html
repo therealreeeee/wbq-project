@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {
+  background-color: #000000;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+}
+
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #555;}
+</style>
+</head>
+
+
+
+<div class="dropdown">
+  <button class="dropbtn">quick links</button>
+  <div class="dropdown-content">
+    <a href="#C4">to the bottom</a>
+    <a href="#C5">to styles</a>
+    <a href="https://www.w3schools.com/">w3schools</a>
+
+
+  </div>
+</div>
+<div style="background-color:black;color:white;padding:30px">the dummies guide to making a website</div>
+
+
+
+</div>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+<style>
+
+
+
+  body {
+      background-color: rgb(108, 247, 235);
+      text-align: center;
+      color: black;
+      font-size: 100%;
+  }
+
+
+ </style>
+
+<h3 style="text-align:left;"></h3style> Websites are created using code to tell the computer what to do. It is a little like the instructions for a Lego model telling you where the blocks need to be. Code is written line by line, using a language such as html or java. For this example, I will use html because it is a simple version and easy to work with. </h3>
+<h4 style="text-align:left;"> {h2} {/h2} = < h2 > < /h2 >    If I use an arrow inside a line of code it would all break (like a quote inside a quote) so I am going to use {} instead. At times I have also used [] to mean {} because some styles, such as font changes and background colour, need {} in the actual code.</h4>
+<b style="text-align:left;"> Always remember that html and most code is case sensitive so don't use capitals in the tags if you can  </b>
+<p style="text-align:left;">The first thing you need to know is the most important bit. Open your notepad or an html editor and write !DOCTYPE html at the top. That tells the computer that you are using html in your code and it will use html when you go into your web browser to test out your website. It is a little like telling Google which language you want it to translate from.  </p>
+<p style="text-align:left;">To start, you need {html} followed by a seprate line with {head} followed by another seperate line with {body}. This is where you tell the computer information. The head is the whole page, the body is information on the section of text, such as font, styles like bold etc. </p>
+<p style="text-align:left;">If you want to see how it is done, open this website in notepad or do control shift i on a website to see the code. The more complicated the website, the more code that is needed.</p>
+<p style="text-align:left;"> The first thing you need to know in basic code is headings. Headings are {h1} all the way to {h6}. The bigger the number the smaller the font size:</p> 
+<img src="https://karoku.com/wp-content/uploads/2019/02/Heading-Tag-Hierarchy.jpg" style="width:150px;height:150px;">
+
+
+<h1>1</h1>
+<h2>2</h2>
+<h3>3</h3>
+<h4>4</h4>
+<h5>5</h5>
+<h6>6</h6>
+
+
+<p style="text-align:left;">Centered paragraph.</p>
+
+<p style="text-align:left;">If you don't change the font size it will be at 4. Always remember to end the section with the same text tag with a slash like this {h1} your words {/h1} to end the heading.  </p>
+<p style="text-align:left;">The next thingto consider is paragraphs. That is addedby using {p} your words and then followed by {/p} at the end. The code simply makes a new paragraph in the website. As you can see, if you open this using Ctrl Shift i, I have used {p} on almost every line!</p>
+<p style="text-align:left;"> There are so many weird and wonderful things you can do in html. You can make lists, bullet points, tables and add extra details.</p>
+<br>
+<ul style="text-align:left;">
+<li> Using {ul} means that it is a bullet pointed list. </li>
+<li> In each section of the list you have to do {li} to show the computer it is a different item. Make sure you always close the brackets just like in the headings by using {/li}. </li>
+</ul>
+<ol style="text-align:left;">
+<li> Using {ol} will create a list that numbers the items  </li>
+<li> After each list item you have to close the brackets and open a new set if you want to start a different item. </li>
+</ol>
+<p style="text-align:left;"> You can also do create a space in your document. By simply typing {br} as the line of code. This is a full line and doesn't need to be ended with {/br} </p>
+<marquee behaviour=scroll scrollamount="7">
+    This is a marquee. It scrolls the text around the screen like this</marquee>
+    <p style="text-align:left;"> The code for a marquee is simply {marquee} then your text and complete the line with {/marquee}. Marquees have their own settings you can edit like this  {marquee behaviour=scroll scrollamount="7"}
+    {/marquee} </p>
+    <p style="text-align:left;"> Scroll amount means how fast it goes. The higher the number, the faster it is. There are lots of diffrent behaviours for marque such as; go up the page, down the page, across from diffrent sides. The direction it comes from can be changed using {marquee   behaviour=scroll direction=left} your text here then {/marquee} </p>
+    <br> 
+
+
+    <h2 id="C5">styles</h2>
+<p style="text-align:left;"> Your text can be made more interesting using the code {styles}. Styles can change the fonts size, colour, the background colour etc.</p>
+<p style="text-align:left;"> To make the writing blue you can use {p style="color:blue;"} the text here {/p}. The code is saying, this is a paragraph and it is blue. The same goes for any colour. Please note; the spelling of "color", if you spell it the English way in the code, it does not work. </p>
+<p style="text-align:left; color:red;">I am red</p>
+<p style="text-align:left; color:blue;">I am blue</p>
+<p style="text-align:left; color:rgb(255, 255, 255);">I am rgb (255, 255, 255)</p>
+<p style="text-align:left;">To centre text and change colour and font, I use 
+ <p style="text-align:left;">  {style} </p> 
+ <p style="text-align:left;"> body [ </p> 
+ <p style="text-align:left;">    background-color: rgb(8, 164, 255); </p> 
+ <p style="text-align:left;">   text-align: center;</p> 
+ <p style="text-align:left;">      color: black;</p> 
+ <p style="text-align:left;"> ]</p> 
+ <p style="text-align:left;"> p [ font: 15px sans-serif ;</p> 
+ <p style="text-align:left;">  ]</p> 
+ <p style="text-align:left;">  {/style} </p>
+<p style="text-align:left;"> In code terms, this means I have told the computer to do a background colour, to centre the text and that my font is black, size 15 and the font style of sans-serif.  </p>
+<p style="text-align:left;"> The code {hr} puts a line across your whole webpage like this: </p>
+<hr>
+<p style="text-align:left;"> As with page break {br}, this does not need an end code.</p>
+<br>
+<p style="text-align:left;"> You can make font look like it has a cross through it like this {del} and finish it with a {/del}
+<del style="text-align:left;"> This is crossed off. </del>. del is useful because you can put it in a paragraph tag</p>
+<p style="text-align:left;">There are two different ways to make something bold. you can use {b} or {strong}</p>
+<b style="text-align:left;"> This is using b. </b>
+<br>
+<strong style="text-align:left;">This is using strong. </strong>
+<p style="text-align:left;"> Although these look exactly the same, the computer thinks that words inside {strong} tags aremore important.</p>
+<p style="text-align:left;"> Text can also be underlined using {u} and made italic using {i} </p>
+<u style="text-align:left;">This is underlined</u>
+<br>
+<i style="text-align:left;">This is italic</i>
+<p style="text-align:left;"> These steps will let you make a basic webpage. As you get used to using code you can add in more detail such as pictures. </p>
+<p style="text-align:left;">Many companies write the basic code for you so you only have to add the details you want to make your website special. </p>
+ <img src="https://i.pinimg.com/originals/71/eb/dd/71ebdd3b95602782a75e400d49de9373.gif"  style="width:150px;height:150px;">
+ <h2 id="C4">    </h2>
+</p>
+
+
+</body>
+</html>
+
+
+
